@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="nav">
+            <div class="foodCount">
+                <img class="imgApple" src="./img/apfel.png" alt="Apfel" width="25px">
+                <span id="foodCount">0</span>
+            </div>
+
+            <p id="startText">Drücken Sie zum Starten die LEERTASTE</p>
+
+            <!-- <div>
+                <label for="changeSpeed">Geschwindigkeit</label>
+                <select name="changeSpeed" id="changeSpeed" onchange="changeSpeed();">
+                    <option value="low">Langsam</option>
+                    <option value="normal" selected>Normal</option>
+                    <option value="fast">Schnell</option>
+                </select>
+            </div> -->
+        </div>
+
+        <canvas id="canvas" width="560" height="560"></canvas>
+    </div>
+
+    <script src="./snake.js"></script>
+</body>
+
+</html>
